@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+YouTube Clone:
+01.08.24 - 1 час (создание проекта, подключение зависимостей)
+02.08 - 1 час (создание App.js, прописан index.css и роутинг)
+03.08 - 2 часа (продуманы и написаны компоненты Navbar, SearchBar(без логики поиска), а также начат Feed и Sidebar)
+04.08 - 1 час (доделан sidebar, нужна редактура еще)
+1.5 часа (sidebar теперь работает вместе с Feed (название ставится в заголовок при переключении вкладки) через пропсы, разбирал API, подключил API в отдельном файле, в логи выводил массив видео из API
+05.08 - 1 час (работа с карточкой видео и вывод всех видео в Feed)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+13.08 - 1 час (чинил прикол с кривым запросом к api, в итоге нужно было заменить один символ, чтобы ролики все - таки менялись от раздела к разделу)
+14.08 - 3 часа (доделал карточки видео и плейлистов)
+15.08 - 2 часа (сделал страницу канала при переходе, поработал с запросами)
+16.08 - 1.5 часа (сделал функцию поиска с запросом и рендером нового компонента SearchFeed)
+1 час (какая - то ошибка с запросом по VideoDetail, возвращается всегда null, нужно покопаться)
+1 час (ошибку не исправил, но явно есть какой - то прикол с useParams и useEffect)
 
-## Available Scripts
+18.08 - 1.5 часа (почти доделан videoDetails. Оказывается, запрос был написан немного криво, но с помощью плагина пофиксилось, осталось добавить справа видосики)
+19.08 - 1 час (добавлены рекомендуемые видосики к видео, осталось добавить комменты и сделать PlaylistDetail)
+20.08 - 2 часа (добавил комменты к видосам, в playlistDetail добавлены видосы, нужно сделать карточку плейлиста, потом уже деплой)
+21.08 - 1 час (пофиксил фишку с кривой апишкой для видос конкретного плейлиста, выводятся видосы в карточке плейлиста)
+22.08 - 1 час (доделал playlistDetail и это финал, остался деплой)
 
-In the project directory, you can run:
+23.08 - 1.5 часа (деплой на netlify, но еще хотелось бы задеплоить на github)
 
-### `npm start`
+26.08 - 1 час (деплой на github pages, прикол с HashRouter и BrowserRouter)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Суммарно 26 часов
+Выводы: научился работать с mui и их документацией (удобно), научился работать с API (прикольно), научился делать запросы к API, покопался в Router (очень полезно, интересно)
