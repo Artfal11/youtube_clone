@@ -1,3 +1,4 @@
+CRA + MaterialUI + Router + RapidAPI + gh-pages project
 YouTube Clone:
 01.08.24 - 1 час (создание проекта, подключение зависимостей)
 02.08 - 1 час (создание App.js, прописан index.css и роутинг)
